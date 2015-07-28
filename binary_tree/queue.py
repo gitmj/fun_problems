@@ -1,57 +1,35 @@
 class Queue():
-  def __init__(self, data):
-    self.front = None
-    self.back = None
-    self.data = data
+  def __init__(self):
+    self.items = []
 
-  # return new back of queue.
-  def put(self, data):
-    node = self
-    # Get to the back of queue.
-    while node.back != None:
-      node = node.back
-    node.back = Queue(data);
-    node.back.front = node;
-    return node.back
+  def isEmpty(self):
+    return self.items == []
+  
+  def enqueue(self, item):
+    self.items.insert(0, item)
 
-  def get(self):
-    node = self
-    # get to the front
-    while self.front != None: 
-      self = self.front
-
-    self.back.front = None
-    return self.data
-
-  def walk(self):
-    node = self
-    # go to the back and start walking towards front
-    while node.back != None:
-      node = node.back
-
-    # now print and walk towards front
-    while node.front != None:
-      print node.data
-      node = node.front
-
-    print node.data
-
+  def dequeue(self):
+    if (self.isEmpty()):
+      return None
+    return self.items.pop()
+  
+  def size(self):
+    return len(self.items)
+  
 
 
 def main():
-    queue = Queue(1)
-    queue = queue.put(2)
-    queue = queue.put(3)
-    queue = queue.put(4)
+    queue = Queue()
+    queue.enqueue(2)
+    queue.enqueue(3)
+    queue.enqueue(4)
   
-    print 'walk the queue'
-    queue.walk()
-    print 'front of queue'
-    print queue.get()
-    print 'front of queue'
-    print queue.get()
-    print 'walk the queue'
-    queue.walk()
+    print queue.dequeue()
+    print queue.dequeue()
+    queue.enqueue(5)
+    print queue.dequeue()
+    print queue.dequeue()
+    print queue.dequeue()
 
 if __name__ == "__main__":
     main()
