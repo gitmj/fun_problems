@@ -1,0 +1,380 @@
+Mon, 07 Aug 2017 22:52:29 DEBUG    New job created: J1
+Mon, 07 Aug 2017 22:52:29 DEBUG    Adding job: J1 to bucket # 0
+Mon, 07 Aug 2017 22:52:29 DEBUG    New job created: J2
+Mon, 07 Aug 2017 22:52:29 DEBUG    Adding job: J2 to bucket # 0
+Mon, 07 Aug 2017 22:52:29 DEBUG    New job created: J3
+Mon, 07 Aug 2017 22:52:29 DEBUG    Creating new parent set : J3 child: J1
+Mon, 07 Aug 2017 22:52:29 DEBUG    Creating new parent set : J3 child: J2
+Mon, 07 Aug 2017 22:52:29 DEBUG    Adding child: J1 to parent: J3
+Mon, 07 Aug 2017 22:52:29 DEBUG    Adding child: J2 to parent: J3
+Mon, 07 Aug 2017 22:52:29 DEBUG    highest priority: 2
+Mon, 07 Aug 2017 22:52:29 DEBUG    Inherit priority from parent: J3 priority: 1 child: J1 priority: 2
+Mon, 07 Aug 2017 22:52:29 DEBUG    Updating priority of J1 priority 2
+Mon, 07 Aug 2017 22:52:29 DEBUG    Inherit priority from parent: J3 priority: 1 child: J2 priority: 2
+Mon, 07 Aug 2017 22:52:29 DEBUG    Updating priority of J2 priority 2
+Mon, 07 Aug 2017 22:52:29 DEBUG    New job created: J100
+Mon, 07 Aug 2017 22:52:29 DEBUG    Creating new parent set : J100 child: J200
+Mon, 07 Aug 2017 22:52:29 DEBUG    Adding child without pointer: J200
+Mon, 07 Aug 2017 22:52:29 DEBUG    New job created: J1
+Mon, 07 Aug 2017 22:52:29 DEBUG    Creating new parent set : J1 child: J2
+Mon, 07 Aug 2017 22:52:29 DEBUG    Creating new parent set : J1 child: J3
+Mon, 07 Aug 2017 22:52:29 DEBUG    Adding child without pointer: J2
+Mon, 07 Aug 2017 22:52:29 DEBUG    Adding child without pointer: J3
+Mon, 07 Aug 2017 22:52:29 DEBUG    New job created: J1
+Mon, 07 Aug 2017 22:52:29 DEBUG    Creating new parent set : J1 child: J2
+Mon, 07 Aug 2017 22:52:29 DEBUG    Creating new parent set : J1 child: J3
+Mon, 07 Aug 2017 22:52:29 DEBUG    Adding child without pointer: J2
+Mon, 07 Aug 2017 22:52:29 DEBUG    Adding child without pointer: J3
+Mon, 07 Aug 2017 22:52:29 DEBUG    Clearing existing job: J1
+Mon, 07 Aug 2017 22:52:29 DEBUG    New job created: J1
+Mon, 07 Aug 2017 22:52:29 DEBUG    Creating new parent set : J1 child: J2
+Mon, 07 Aug 2017 22:52:29 DEBUG    Creating new parent set : J1 child: J3
+Mon, 07 Aug 2017 22:52:29 DEBUG    Adding child without pointer: J2
+Mon, 07 Aug 2017 22:52:29 DEBUG    Adding child without pointer: J3
+Mon, 07 Aug 2017 22:52:29 DEBUG    New job created: J4
+Mon, 07 Aug 2017 22:52:29 DEBUG    Adding to existing parent set : J4 child: J2
+Mon, 07 Aug 2017 22:52:29 DEBUG    Adding to existing parent set : J4 child: J3
+Mon, 07 Aug 2017 22:52:29 DEBUG    Adding child without pointer: J2
+Mon, 07 Aug 2017 22:52:29 DEBUG    Adding child without pointer: J3
+Mon, 07 Aug 2017 22:52:29 DEBUG    New job created: J1
+Mon, 07 Aug 2017 22:52:29 DEBUG    Creating new parent set : J1 child: J3
+Mon, 07 Aug 2017 22:52:29 DEBUG    Adding child without pointer: J3
+Mon, 07 Aug 2017 22:52:29 DEBUG    New job created: J2
+Mon, 07 Aug 2017 22:52:29 DEBUG    Adding job: J2 to bucket # 0
+Mon, 07 Aug 2017 22:52:29 DEBUG    Total time: 2
+Mon, 07 Aug 2017 22:52:29 DEBUG    Job J2 run time 2 expected time: 6
+Mon, 07 Aug 2017 22:52:29 DEBUG    Total time: 4
+Mon, 07 Aug 2017 22:52:29 DEBUG    Job J2 run time 4 expected time: 6
+Mon, 07 Aug 2017 22:52:29 DEBUG    Total time: 6
+Mon, 07 Aug 2017 22:52:29 DEBUG    Job J2 run time 6 expected time: 6
+Mon, 07 Aug 2017 22:52:29 DEBUG    New job created: J1
+Mon, 07 Aug 2017 22:52:29 DEBUG    Creating new parent set : J1 child: J2
+Mon, 07 Aug 2017 22:52:29 DEBUG    Creating new parent set : J1 child: J3
+Mon, 07 Aug 2017 22:52:29 DEBUG    Adding child without pointer: J2
+Mon, 07 Aug 2017 22:52:29 DEBUG    Adding child without pointer: J3
+Mon, 07 Aug 2017 22:52:29 DEBUG    Clearing existing job: J1
+Mon, 07 Aug 2017 22:52:29 DEBUG    New job created: J1
+Mon, 07 Aug 2017 22:52:29 DEBUG    Adding job: J1 to bucket # 0
+Mon, 07 Aug 2017 22:52:29 DEBUG    New job created: J2
+Mon, 07 Aug 2017 22:52:29 DEBUG    Adding job: J2 to bucket # 0
+Mon, 07 Aug 2017 22:52:29 DEBUG    New job created: J3
+Mon, 07 Aug 2017 22:52:29 DEBUG    Creating new parent set : J3 child: J1
+Mon, 07 Aug 2017 22:52:29 DEBUG    Creating new parent set : J3 child: J10
+Mon, 07 Aug 2017 22:52:29 DEBUG    Adding child: J1 to parent: J3
+Mon, 07 Aug 2017 22:52:29 DEBUG    Adding child without pointer: J10
+Mon, 07 Aug 2017 22:52:29 DEBUG    highest priority: 2
+Mon, 07 Aug 2017 22:52:29 DEBUG    Inherit priority from parent: J3 priority: 1 child: J1 priority: 2
+Mon, 07 Aug 2017 22:52:29 DEBUG    Updating priority of J1 priority 2
+Mon, 07 Aug 2017 22:52:29 DEBUG    New job created: J1
+Mon, 07 Aug 2017 22:52:29 DEBUG    Creating new parent set : J1 child: J2
+Mon, 07 Aug 2017 22:52:29 DEBUG    Adding child without pointer: J2
+Mon, 07 Aug 2017 22:52:29 DEBUG    New job created: J2
+Mon, 07 Aug 2017 22:52:29 DEBUG    Update Parents: J1 child: J2
+Mon, 07 Aug 2017 22:52:29 DEBUG    highest priority: 2
+Mon, 07 Aug 2017 22:52:29 DEBUG    Inherit priority from parent: J1 priority: 1 child: J2 priority: 2
+Mon, 07 Aug 2017 22:52:29 DEBUG    Adding job: J2 to bucket # 0
+Mon, 07 Aug 2017 22:52:29 DEBUG    New job created: J3
+Mon, 07 Aug 2017 22:52:29 DEBUG    Creating new parent set : J3 child: J1
+Mon, 07 Aug 2017 22:52:29 DEBUG    Adding to existing parent set : J3 child: J2
+Mon, 07 Aug 2017 22:52:29 DEBUG    Adding child: J1 to parent: J3
+Mon, 07 Aug 2017 22:52:29 DEBUG    Adding child: J2 to parent: J3
+Mon, 07 Aug 2017 22:52:29 DEBUG    Inherit priority from parent: J3 priority: 1 child: J1 priority: 2
+Mon, 07 Aug 2017 22:52:29 DEBUG    highest priority: 3
+Mon, 07 Aug 2017 22:52:29 DEBUG    Inherit priority from parent: J1 priority: 2 child: J2 priority: 3
+Mon, 07 Aug 2017 22:52:29 DEBUG    highest priority: 4
+Mon, 07 Aug 2017 22:52:29 DEBUG    Inherit priority from parent: J3 priority: 1 child: J2 priority: 4
+Mon, 07 Aug 2017 22:52:29 DEBUG    Updating priority of J2 priority 4
+Mon, 07 Aug 2017 22:52:29 DEBUG    Updating priority of J1 priority 2
+Mon, 07 Aug 2017 22:52:29 DEBUG    Inherit priority from parent: J1 priority: 2 child: J2 priority: 3
+Mon, 07 Aug 2017 22:52:29 DEBUG    Inherit priority from parent: J3 priority: 1 child: J2 priority: 4
+Mon, 07 Aug 2017 22:52:29 DEBUG    Updating priority of J2 priority 4
+Mon, 07 Aug 2017 22:52:29 DEBUG    New job created: J1
+Mon, 07 Aug 2017 22:52:29 DEBUG    Adding job: J1 to bucket # 0
+Mon, 07 Aug 2017 22:52:29 DEBUG    New job created: J2
+Mon, 07 Aug 2017 22:52:29 DEBUG    Creating new parent set : J2 child: J1
+Mon, 07 Aug 2017 22:52:29 DEBUG    Adding child: J1 to parent: J2
+Mon, 07 Aug 2017 22:52:29 DEBUG    highest priority: 2
+Mon, 07 Aug 2017 22:52:29 DEBUG    Inherit priority from parent: J2 priority: 1 child: J1 priority: 2
+Mon, 07 Aug 2017 22:52:29 DEBUG    Updating priority of J1 priority 2
+Mon, 07 Aug 2017 22:52:29 DEBUG    New job created: J3
+Mon, 07 Aug 2017 22:52:29 DEBUG    Creating new parent set : J3 child: J4
+Mon, 07 Aug 2017 22:52:29 DEBUG    Adding to existing parent set : J3 child: J1
+Mon, 07 Aug 2017 22:52:29 DEBUG    Adding child without pointer: J4
+Mon, 07 Aug 2017 22:52:29 DEBUG    Adding child: J1 to parent: J3
+Mon, 07 Aug 2017 22:52:29 DEBUG    Inherit priority from parent: J2 priority: 1 child: J1 priority: 2
+Mon, 07 Aug 2017 22:52:29 DEBUG    highest priority: 3
+Mon, 07 Aug 2017 22:52:29 DEBUG    Inherit priority from parent: J3 priority: 1 child: J1 priority: 3
+Mon, 07 Aug 2017 22:52:29 DEBUG    Updating priority of J1 priority 3
+Mon, 07 Aug 2017 22:52:29 DEBUG    New job created: J1
+Mon, 07 Aug 2017 22:52:29 DEBUG    Adding job: J1 to bucket # 0
+Mon, 07 Aug 2017 22:52:29 DEBUG    New job created: J2
+Mon, 07 Aug 2017 22:52:29 DEBUG    Creating new parent set : J2 child: J1
+Mon, 07 Aug 2017 22:52:29 DEBUG    Adding child: J1 to parent: J2
+Mon, 07 Aug 2017 22:52:29 DEBUG    highest priority: 2
+Mon, 07 Aug 2017 22:52:29 DEBUG    Inherit priority from parent: J2 priority: 1 child: J1 priority: 2
+Mon, 07 Aug 2017 22:52:29 DEBUG    Updating priority of J1 priority 2
+Mon, 07 Aug 2017 22:52:29 DEBUG    Total time: 2
+Mon, 07 Aug 2017 22:52:29 DEBUG    Job J1 run time 2 expected time: 6
+Mon, 07 Aug 2017 22:52:29 DEBUG    Total time: 4
+Mon, 07 Aug 2017 22:52:29 DEBUG    Job J1 run time 4 expected time: 6
+Mon, 07 Aug 2017 22:52:29 DEBUG    Total time: 6
+Mon, 07 Aug 2017 22:52:29 DEBUG    Job J1 run time 6 expected time: 6
+Mon, 07 Aug 2017 22:52:29 DEBUG    Removed parent J2 child J1 Num childs 0
+Mon, 07 Aug 2017 22:52:29 DEBUG    Adding job: J2 to bucket # 0
+Mon, 07 Aug 2017 22:52:29 DEBUG    Total time: 8
+Mon, 07 Aug 2017 22:52:29 DEBUG    Job J2 run time 2 expected time: 2
+Mon, 07 Aug 2017 22:52:29 DEBUG    New job created: J1
+Mon, 07 Aug 2017 22:52:29 DEBUG    Adding job: J1 to bucket # 0
+Mon, 07 Aug 2017 22:52:29 DEBUG    New job created: J2
+Mon, 07 Aug 2017 22:52:29 DEBUG    Creating new parent set : J2 child: J1
+Mon, 07 Aug 2017 22:52:29 DEBUG    Adding child: J1 to parent: J2
+Mon, 07 Aug 2017 22:52:29 DEBUG    highest priority: 2
+Mon, 07 Aug 2017 22:52:29 DEBUG    Inherit priority from parent: J2 priority: 1 child: J1 priority: 2
+Mon, 07 Aug 2017 22:52:29 DEBUG    Updating priority of J1 priority 2
+Mon, 07 Aug 2017 22:52:29 DEBUG    New job created: J3
+Mon, 07 Aug 2017 22:52:29 DEBUG    Creating new parent set : J3 child: J4
+Mon, 07 Aug 2017 22:52:29 DEBUG    Adding child without pointer: J4
+Mon, 07 Aug 2017 22:52:29 DEBUG    Total time: 2
+Mon, 07 Aug 2017 22:52:29 DEBUG    Job J1 run time 2 expected time: 6
+Mon, 07 Aug 2017 22:52:29 DEBUG    Total time: 4
+Mon, 07 Aug 2017 22:52:29 DEBUG    Job J1 run time 4 expected time: 6
+Mon, 07 Aug 2017 22:52:29 DEBUG    Total time: 6
+Mon, 07 Aug 2017 22:52:29 DEBUG    Job J1 run time 6 expected time: 6
+Mon, 07 Aug 2017 22:52:29 DEBUG    Removed parent J2 child J1 Num childs 0
+Mon, 07 Aug 2017 22:52:29 DEBUG    Adding job: J2 to bucket # 0
+Mon, 07 Aug 2017 22:52:29 DEBUG    Total time: 8
+Mon, 07 Aug 2017 22:52:29 DEBUG    Job J2 run time 2 expected time: 2
+Mon, 07 Aug 2017 22:52:29 DEBUG    New job created: J100
+Mon, 07 Aug 2017 22:52:29 DEBUG    Creating new parent set : J100 child: J200
+Mon, 07 Aug 2017 22:52:29 DEBUG    Adding child without pointer: J200
+Mon, 07 Aug 2017 22:52:29 DEBUG    New job created: J200
+Mon, 07 Aug 2017 22:52:29 DEBUG    Update Parents: J100 child: J200
+Mon, 07 Aug 2017 22:52:29 DEBUG    highest priority: 2
+Mon, 07 Aug 2017 22:52:29 DEBUG    Inherit priority from parent: J100 priority: 1 child: J200 priority: 2
+Mon, 07 Aug 2017 22:52:29 DEBUG    Adding job: J200 to bucket # 1
+Mon, 07 Aug 2017 22:52:29 DEBUG    New job created: J300
+Mon, 07 Aug 2017 22:52:29 DEBUG    Adding to existing parent set : J300 child: J200
+Mon, 07 Aug 2017 22:52:29 DEBUG    Adding child: J200 to parent: J300
+Mon, 07 Aug 2017 22:52:29 DEBUG    Inherit priority from parent: J300 priority: 1 child: J200 priority: 2
+Mon, 07 Aug 2017 22:52:29 DEBUG    highest priority: 3
+Mon, 07 Aug 2017 22:52:29 DEBUG    Inherit priority from parent: J100 priority: 1 child: J200 priority: 3
+Mon, 07 Aug 2017 22:52:29 DEBUG    Updating priority of J200 priority 3
+Mon, 07 Aug 2017 22:52:29 DEBUG    Total time: 2
+Mon, 07 Aug 2017 22:52:29 DEBUG    Job J200 run time 2 expected time: 12
+Mon, 07 Aug 2017 22:52:29 DEBUG    Total time: 4
+Mon, 07 Aug 2017 22:52:29 DEBUG    Job J200 run time 4 expected time: 12
+Mon, 07 Aug 2017 22:52:29 DEBUG    Total time: 6
+Mon, 07 Aug 2017 22:52:29 DEBUG    Job J200 run time 6 expected time: 12
+Mon, 07 Aug 2017 22:52:29 DEBUG    Total time: 8
+Mon, 07 Aug 2017 22:52:29 DEBUG    Job J200 run time 8 expected time: 12
+Mon, 07 Aug 2017 22:52:29 DEBUG    Total time: 10
+Mon, 07 Aug 2017 22:52:29 DEBUG    Job J200 run time 10 expected time: 12
+Mon, 07 Aug 2017 22:52:29 DEBUG    Total time: 12
+Mon, 07 Aug 2017 22:52:29 DEBUG    Job J200 run time 12 expected time: 12
+Mon, 07 Aug 2017 22:52:29 DEBUG    Removed parent J300 child J200 Num childs 0
+Mon, 07 Aug 2017 22:52:29 DEBUG    Adding job: J300 to bucket # 0
+Mon, 07 Aug 2017 22:52:29 DEBUG    Removed parent J100 child J200 Num childs 0
+Mon, 07 Aug 2017 22:52:29 DEBUG    Adding job: J100 to bucket # 0
+Mon, 07 Aug 2017 22:52:29 DEBUG    Total time: 12
+Mon, 07 Aug 2017 22:52:29 DEBUG    Job J300 run time 2 expected time: 2
+Mon, 07 Aug 2017 22:52:29 DEBUG    Total time: 14
+Mon, 07 Aug 2017 22:52:29 DEBUG    Job J100 run time 2 expected time: 6
+Mon, 07 Aug 2017 22:52:29 DEBUG    Total time: 16
+Mon, 07 Aug 2017 22:52:29 DEBUG    Job J100 run time 4 expected time: 6
+Mon, 07 Aug 2017 22:52:29 DEBUG    Total time: 18
+Mon, 07 Aug 2017 22:52:29 DEBUG    Job J100 run time 6 expected time: 6
+Mon, 07 Aug 2017 22:52:29 DEBUG    New job created: J1
+Mon, 07 Aug 2017 22:52:29 DEBUG    Creating new parent set : J1 child: J2
+Mon, 07 Aug 2017 22:52:29 DEBUG    Creating new parent set : J1 child: J3
+Mon, 07 Aug 2017 22:52:29 DEBUG    Adding child without pointer: J2
+Mon, 07 Aug 2017 22:52:29 DEBUG    Adding child without pointer: J3
+Mon, 07 Aug 2017 22:52:29 DEBUG    New job created: J4
+Mon, 07 Aug 2017 22:52:29 DEBUG    Adding to existing parent set : J4 child: J2
+Mon, 07 Aug 2017 22:52:29 DEBUG    Adding to existing parent set : J4 child: J3
+Mon, 07 Aug 2017 22:52:29 DEBUG    Adding child without pointer: J2
+Mon, 07 Aug 2017 22:52:29 DEBUG    Adding child without pointer: J3
+Mon, 07 Aug 2017 22:52:29 DEBUG    New job created: J1
+Mon, 07 Aug 2017 22:52:29 DEBUG    Adding job: J1 to bucket # 0
+Mon, 07 Aug 2017 22:52:29 DEBUG    New job created: J4
+Mon, 07 Aug 2017 22:52:29 DEBUG    Adding job: J4 to bucket # 0
+Mon, 07 Aug 2017 22:52:29 DEBUG    New job created: J1
+Mon, 07 Aug 2017 22:52:29 DEBUG    Creating new parent set : J1 child: J2
+Mon, 07 Aug 2017 22:52:29 DEBUG    Adding child without pointer: J2
+Mon, 07 Aug 2017 22:52:29 DEBUG    New job created: J2
+Mon, 07 Aug 2017 22:52:29 DEBUG    Update Parents: J1 child: J2
+Mon, 07 Aug 2017 22:52:29 DEBUG    highest priority: 2
+Mon, 07 Aug 2017 22:52:29 DEBUG    Inherit priority from parent: J1 priority: 1 child: J2 priority: 2
+Mon, 07 Aug 2017 22:52:29 DEBUG    Adding job: J2 to bucket # 0
+Mon, 07 Aug 2017 22:52:29 DEBUG    New job created: J1
+Mon, 07 Aug 2017 22:52:29 DEBUG    Creating new parent set : J1 child: 20
+Mon, 07 Aug 2017 22:52:29 DEBUG    Creating new parent set : J1 child: J2
+Mon, 07 Aug 2017 22:52:29 DEBUG    Creating new parent set : J1 child: J3
+Mon, 07 Aug 2017 22:52:29 DEBUG    Adding child without pointer: 20
+Mon, 07 Aug 2017 22:52:29 DEBUG    Adding child without pointer: J2
+Mon, 07 Aug 2017 22:52:29 DEBUG    Adding child without pointer: J3
+Mon, 07 Aug 2017 22:52:29 DEBUG    New job created: J2
+Mon, 07 Aug 2017 22:52:29 DEBUG    Update Parents: J1 child: J2
+Mon, 07 Aug 2017 22:52:29 DEBUG    highest priority: 2
+Mon, 07 Aug 2017 22:52:29 DEBUG    Inherit priority from parent: J1 priority: 1 child: J2 priority: 2
+Mon, 07 Aug 2017 22:52:29 DEBUG    Adding job: J2 to bucket # 0
+Mon, 07 Aug 2017 22:52:29 DEBUG    New job created: J3
+Mon, 07 Aug 2017 22:52:29 DEBUG    Update Parents: J1 child: J3
+Mon, 07 Aug 2017 22:52:29 DEBUG    Inherit priority from parent: J1 priority: 1 child: J3 priority: 2
+Mon, 07 Aug 2017 22:52:29 DEBUG    Adding job: J3 to bucket # 0
+Mon, 07 Aug 2017 22:52:29 DEBUG    New job created: J1
+Mon, 07 Aug 2017 22:52:29 DEBUG    Creating new parent set : J1 child: J2
+Mon, 07 Aug 2017 22:52:29 DEBUG    Adding child without pointer: J2
+Mon, 07 Aug 2017 22:52:29 DEBUG    New job created: J2
+Mon, 07 Aug 2017 22:52:29 DEBUG    Creating new parent set : J2 child: J3
+Mon, 07 Aug 2017 22:52:29 DEBUG    Adding child without pointer: J3
+Mon, 07 Aug 2017 22:52:29 DEBUG    Update Parents: J1 child: J2
+Mon, 07 Aug 2017 22:52:29 DEBUG    highest priority: 2
+Mon, 07 Aug 2017 22:52:29 DEBUG    Inherit priority from parent: J1 priority: 1 child: J2 priority: 2
+Mon, 07 Aug 2017 22:52:29 DEBUG    New job created: J3
+Mon, 07 Aug 2017 22:52:29 DEBUG    Update Parents: J2 child: J3
+Mon, 07 Aug 2017 22:52:29 DEBUG    highest priority: 3
+Mon, 07 Aug 2017 22:52:29 DEBUG    Inherit priority from parent: J2 priority: 2 child: J3 priority: 3
+Mon, 07 Aug 2017 22:52:29 DEBUG    Adding job: J3 to bucket # 1
+Mon, 07 Aug 2017 22:52:29 DEBUG    New job created: J3
+Mon, 07 Aug 2017 22:52:29 DEBUG    Adding job: J3 to bucket # 0
+Mon, 07 Aug 2017 22:52:29 DEBUG    New job created: J2
+Mon, 07 Aug 2017 22:52:29 DEBUG    Creating new parent set : J2 child: J3
+Mon, 07 Aug 2017 22:52:29 DEBUG    Adding child: J3 to parent: J2
+Mon, 07 Aug 2017 22:52:29 DEBUG    highest priority: 2
+Mon, 07 Aug 2017 22:52:29 DEBUG    Inherit priority from parent: J2 priority: 1 child: J3 priority: 2
+Mon, 07 Aug 2017 22:52:29 DEBUG    Updating priority of J3 priority 2
+Mon, 07 Aug 2017 22:52:29 DEBUG    New job created: J1
+Mon, 07 Aug 2017 22:52:29 DEBUG    Creating new parent set : J1 child: J2
+Mon, 07 Aug 2017 22:52:29 DEBUG    Adding child: J2 to parent: J1
+Mon, 07 Aug 2017 22:52:29 DEBUG    Inherit priority from parent: J1 priority: 1 child: J2 priority: 2
+Mon, 07 Aug 2017 22:52:29 DEBUG    highest priority: 3
+Mon, 07 Aug 2017 22:52:29 DEBUG    Inherit priority from parent: J2 priority: 2 child: J3 priority: 3
+Mon, 07 Aug 2017 22:52:29 DEBUG    Updating priority of J3 priority 3
+Mon, 07 Aug 2017 22:52:29 DEBUG    Updating priority of J2 priority 2
+Mon, 07 Aug 2017 22:52:29 DEBUG    New job created: J1
+Mon, 07 Aug 2017 22:52:29 DEBUG    Adding job: J1 to bucket # 0
+Mon, 07 Aug 2017 22:52:29 DEBUG    New job created: J2
+Mon, 07 Aug 2017 22:52:29 DEBUG    Creating new parent set : J2 child: J1
+Mon, 07 Aug 2017 22:52:29 DEBUG    Adding child: J1 to parent: J2
+Mon, 07 Aug 2017 22:52:29 DEBUG    highest priority: 2
+Mon, 07 Aug 2017 22:52:29 DEBUG    Inherit priority from parent: J2 priority: 1 child: J1 priority: 2
+Mon, 07 Aug 2017 22:52:29 DEBUG    Updating priority of J1 priority 2
+Mon, 07 Aug 2017 22:52:29 DEBUG    Total time: 2
+Mon, 07 Aug 2017 22:52:29 DEBUG    Job J1 run time 2 expected time: 6
+Mon, 07 Aug 2017 22:52:29 DEBUG    Total time: 4
+Mon, 07 Aug 2017 22:52:29 DEBUG    Job J1 run time 4 expected time: 6
+Mon, 07 Aug 2017 22:52:29 DEBUG    Total time: 6
+Mon, 07 Aug 2017 22:52:29 DEBUG    Job J1 run time 6 expected time: 6
+Mon, 07 Aug 2017 22:52:29 DEBUG    Removed parent J2 child J1 Num childs 0
+Mon, 07 Aug 2017 22:52:29 DEBUG    Adding job: J2 to bucket # 0
+Mon, 07 Aug 2017 22:52:29 DEBUG    Total time: 8
+Mon, 07 Aug 2017 22:52:29 DEBUG    Job J2 run time 2 expected time: 6
+Mon, 07 Aug 2017 22:52:29 DEBUG    Total time: 10
+Mon, 07 Aug 2017 22:52:29 DEBUG    Job J2 run time 4 expected time: 6
+Mon, 07 Aug 2017 22:52:29 DEBUG    Total time: 12
+Mon, 07 Aug 2017 22:52:29 DEBUG    Job J2 run time 6 expected time: 6
+Mon, 07 Aug 2017 22:52:29 DEBUG    New job created: J1
+Mon, 07 Aug 2017 22:52:29 DEBUG    Creating new parent set : J1 child: J2
+Mon, 07 Aug 2017 22:52:29 DEBUG    Adding child without pointer: J2
+Mon, 07 Aug 2017 22:52:29 DEBUG    New job created: J2
+Mon, 07 Aug 2017 22:52:29 DEBUG    Update Parents: J1 child: J2
+Mon, 07 Aug 2017 22:52:29 DEBUG    highest priority: 2
+Mon, 07 Aug 2017 22:52:29 DEBUG    Inherit priority from parent: J1 priority: 1 child: J2 priority: 2
+Mon, 07 Aug 2017 22:52:29 DEBUG    Adding job: J2 to bucket # 0
+Mon, 07 Aug 2017 22:52:29 DEBUG    Total time: 2
+Mon, 07 Aug 2017 22:52:29 DEBUG    Job J2 run time 2 expected time: 6
+Mon, 07 Aug 2017 22:52:29 DEBUG    Total time: 4
+Mon, 07 Aug 2017 22:52:29 DEBUG    Job J2 run time 4 expected time: 6
+Mon, 07 Aug 2017 22:52:29 DEBUG    Total time: 6
+Mon, 07 Aug 2017 22:52:29 DEBUG    Job J2 run time 6 expected time: 6
+Mon, 07 Aug 2017 22:52:29 DEBUG    Removed parent J1 child J2 Num childs 0
+Mon, 07 Aug 2017 22:52:29 DEBUG    Adding job: J1 to bucket # 0
+Mon, 07 Aug 2017 22:52:29 DEBUG    Total time: 8
+Mon, 07 Aug 2017 22:52:29 DEBUG    Job J1 run time 2 expected time: 2
+Mon, 07 Aug 2017 22:52:29 DEBUG    New job created: J1
+Mon, 07 Aug 2017 22:52:29 DEBUG    Adding job: J1 to bucket # 0
+Mon, 07 Aug 2017 22:52:29 DEBUG    New job created: J2
+Mon, 07 Aug 2017 22:52:29 DEBUG    Adding job: J2 to bucket # 0
+Mon, 07 Aug 2017 22:52:29 DEBUG    Total time: 0
+Mon, 07 Aug 2017 22:52:29 DEBUG    Job J1 run time 2 expected time: 6
+Mon, 07 Aug 2017 22:52:29 DEBUG    Total time: 2
+Mon, 07 Aug 2017 22:52:29 DEBUG    Job J2 run time 2 expected time: 6
+Mon, 07 Aug 2017 22:52:29 DEBUG    Total time: 2
+Mon, 07 Aug 2017 22:52:29 DEBUG    Job J1 run time 4 expected time: 6
+Mon, 07 Aug 2017 22:52:29 DEBUG    Total time: 4
+Mon, 07 Aug 2017 22:52:29 DEBUG    Job J2 run time 4 expected time: 6
+Mon, 07 Aug 2017 22:52:29 DEBUG    Total time: 4
+Mon, 07 Aug 2017 22:52:29 DEBUG    Job J1 run time 6 expected time: 6
+Mon, 07 Aug 2017 22:52:29 DEBUG    Total time: 6
+Mon, 07 Aug 2017 22:52:29 DEBUG    Job J2 run time 6 expected time: 6
+Mon, 07 Aug 2017 22:52:29 DEBUG    New job created: J1
+Mon, 07 Aug 2017 22:52:29 DEBUG    Adding job: J1 to bucket # 0
+Mon, 07 Aug 2017 22:52:29 DEBUG    New job created: J2
+Mon, 07 Aug 2017 22:52:29 DEBUG    Adding job: J2 to bucket # 0
+Mon, 07 Aug 2017 22:52:29 DEBUG    Total time: 0
+Mon, 07 Aug 2017 22:52:29 DEBUG    Job J1 run time 2 expected time: 6
+Mon, 07 Aug 2017 22:52:29 DEBUG    Total time: 2
+Mon, 07 Aug 2017 22:52:29 DEBUG    Job J2 run time 2 expected time: 2
+Mon, 07 Aug 2017 22:52:29 DEBUG    Total time: 4
+Mon, 07 Aug 2017 22:52:29 DEBUG    Job J1 run time 4 expected time: 6
+Mon, 07 Aug 2017 22:52:29 DEBUG    Total time: 6
+Mon, 07 Aug 2017 22:52:29 DEBUG    Job J1 run time 6 expected time: 6
+Mon, 07 Aug 2017 22:52:29 DEBUG    New job created: J1
+Mon, 07 Aug 2017 22:52:29 DEBUG    Adding job: J1 to bucket # 0
+Mon, 07 Aug 2017 22:52:29 DEBUG    Total time: 2
+Mon, 07 Aug 2017 22:52:29 DEBUG    Job J1 run time 2 expected time: 6
+Mon, 07 Aug 2017 22:52:29 DEBUG    Total time: 4
+Mon, 07 Aug 2017 22:52:29 DEBUG    Job J1 run time 4 expected time: 6
+Mon, 07 Aug 2017 22:52:29 DEBUG    Total time: 6
+Mon, 07 Aug 2017 22:52:29 DEBUG    Job J1 run time 6 expected time: 6
+Mon, 07 Aug 2017 22:52:29 DEBUG    New job created: J100
+Mon, 07 Aug 2017 22:52:29 DEBUG    Creating new parent set : J100 child: J200
+Mon, 07 Aug 2017 22:52:29 DEBUG    Adding child without pointer: J200
+Mon, 07 Aug 2017 22:52:29 DEBUG    New job created: J200
+Mon, 07 Aug 2017 22:52:29 DEBUG    Update Parents: J100 child: J200
+Mon, 07 Aug 2017 22:52:29 DEBUG    highest priority: 2
+Mon, 07 Aug 2017 22:52:29 DEBUG    Inherit priority from parent: J100 priority: 1 child: J200 priority: 2
+Mon, 07 Aug 2017 22:52:29 DEBUG    Adding job: J200 to bucket # 1
+Mon, 07 Aug 2017 22:52:29 DEBUG    New job created: J300
+Mon, 07 Aug 2017 22:52:29 DEBUG    Adding to existing parent set : J300 child: J200
+Mon, 07 Aug 2017 22:52:29 DEBUG    Adding child: J200 to parent: J300
+Mon, 07 Aug 2017 22:52:29 DEBUG    Inherit priority from parent: J300 priority: 1 child: J200 priority: 2
+Mon, 07 Aug 2017 22:52:29 DEBUG    highest priority: 3
+Mon, 07 Aug 2017 22:52:29 DEBUG    Inherit priority from parent: J100 priority: 1 child: J200 priority: 3
+Mon, 07 Aug 2017 22:52:29 DEBUG    Updating priority of J200 priority 3
+Mon, 07 Aug 2017 22:52:29 DEBUG    New job created: J1
+Mon, 07 Aug 2017 22:52:29 DEBUG    Adding job: J1 to bucket # 0
+Mon, 07 Aug 2017 22:52:29 DEBUG    New job created: J2
+Mon, 07 Aug 2017 22:52:29 DEBUG    Adding job: J2 to bucket # 0
+Mon, 07 Aug 2017 22:52:29 DEBUG    Total time: 2
+Mon, 07 Aug 2017 22:52:29 DEBUG    Job J1 run time 2 expected time: 6
+Mon, 07 Aug 2017 22:52:29 DEBUG    Total time: 4
+Mon, 07 Aug 2017 22:52:29 DEBUG    Job J2 run time 2 expected time: 2
+Mon, 07 Aug 2017 22:52:29 DEBUG    Total time: 6
+Mon, 07 Aug 2017 22:52:29 DEBUG    Job J1 run time 4 expected time: 6
+Mon, 07 Aug 2017 22:52:29 DEBUG    Total time: 8
+Mon, 07 Aug 2017 22:52:29 DEBUG    Job J1 run time 6 expected time: 6
+Mon, 07 Aug 2017 22:52:29 DEBUG    New job created: J100
+Mon, 07 Aug 2017 22:52:29 DEBUG    Creating new parent set : J100 child: J200
+Mon, 07 Aug 2017 22:52:29 DEBUG    Adding child without pointer: J200
+Mon, 07 Aug 2017 22:52:29 DEBUG    New job created: J200
+Mon, 07 Aug 2017 22:52:29 DEBUG    Update Parents: J100 child: J200
+Mon, 07 Aug 2017 22:52:29 DEBUG    highest priority: 2
+Mon, 07 Aug 2017 22:52:29 DEBUG    Inherit priority from parent: J100 priority: 1 child: J200 priority: 2
+Mon, 07 Aug 2017 22:52:29 DEBUG    Adding job: J200 to bucket # 1
+Mon, 07 Aug 2017 22:52:29 DEBUG    New job created: J1
+Mon, 07 Aug 2017 22:52:29 DEBUG    Adding job: J1 to bucket # 0
+Mon, 07 Aug 2017 22:52:29 DEBUG    New job created: J2
+Mon, 07 Aug 2017 22:52:29 DEBUG    Adding job: J2 to bucket # 0
+Mon, 07 Aug 2017 22:52:29 DEBUG    Total time: 2
+Mon, 07 Aug 2017 22:52:29 DEBUG    Job J1 run time 2 expected time: 6
+Mon, 07 Aug 2017 22:52:29 DEBUG    Total time: 4
+Mon, 07 Aug 2017 22:52:29 DEBUG    Job J2 run time 2 expected time: 6
+Mon, 07 Aug 2017 22:52:29 DEBUG    Total time: 6
+Mon, 07 Aug 2017 22:52:29 DEBUG    Job J1 run time 4 expected time: 6
+Mon, 07 Aug 2017 22:52:29 DEBUG    Total time: 8
+Mon, 07 Aug 2017 22:52:29 DEBUG    Job J2 run time 4 expected time: 6
+Mon, 07 Aug 2017 22:52:29 DEBUG    Total time: 10
+Mon, 07 Aug 2017 22:52:29 DEBUG    Job J1 run time 6 expected time: 6
+Mon, 07 Aug 2017 22:52:29 DEBUG    Total time: 12
+Mon, 07 Aug 2017 22:52:29 DEBUG    Job J2 run time 6 expected time: 6
