@@ -104,5 +104,7 @@ class Job:
         self.run_time += time_elapsed
 
 
+if  __name__ == "__main__":
+    print 'name'
 
 

@@ -30,10 +30,10 @@ class JobScheduler:
             # Atleast one bucket please.
             assert(False)
 
-        for i in range(B - 1):
-            self._priority_bucket.append([])
+        #for i in range(B - 1):
+        #    self._priority_bucket.append([])
 
-        self._num_buckets = B
+        # self._num_buckets = B
         self._num_cpu = N
         # To hold all active jobs.
         # Key is name and value is Job pointer.
@@ -50,7 +50,7 @@ class JobScheduler:
         # Total time elapsed by system.
         self.total_time_elapsed = 0
 
-        self.highest_priority = 0
+        # self.highest_priority = 0
 
 
     def ExecuteJobs(self, bucket_num):
@@ -106,7 +106,8 @@ class JobScheduler:
 
         while(True):
             all_buckets_empty = True
-            for bucket_num in xrange(self._num_buckets - 1, -1, -1):
+            # for bucket_num in xrange(self._num_buckets - 1, -1, -1):
+            for bucket_num, _ in reversed(list(enumerate(self._priority_bucket))):
                 self.ExecuteJobs(bucket_num)
                 # if all buckets are empty then return.
                 if len(self._priority_bucket[bucket_num]):
@@ -177,6 +178,18 @@ class JobScheduler:
             job_ptr.ready_to_run = True
 
     def FindBucketId(self, job_ptr):
+
+        if len(self._priority_bucket) > job_ptr.priority:
+            return job_ptr.priority - 1
+        else:
+            while(len(self._priority_bucket) < job_ptr.priority):
+                self._priority_bucket.append([])
+            return job_ptr.priority - 1
+
+        """
+        
+        :param job_ptr: 
+        :return: 
         # Last block will cover any uneven distributions.
         block_size = self.highest_priority / self._num_buckets
 
@@ -191,6 +204,7 @@ class JobScheduler:
 
         if block_size == 1:
             bucket_id -= 1
+        """
 
         return bucket_id
 
@@ -198,7 +212,7 @@ class JobScheduler:
         self.CheckReadiness(job_ptr)
         if job_ptr.ready_to_run:
             bucket_num = self.FindBucketId(job_ptr)
-
+            """
             if bucket_num >= self._num_buckets:
                 logging.debug(job_ptr.priority)
                 logging.debug(self.highest_priority)
@@ -209,6 +223,7 @@ class JobScheduler:
                     + 'bucket %d' % self._num_buckets)
                 assert(False)
                 return
+            """
 
             logging.debug('Adding job: ' + job_ptr.name + ' to bucket # ' + str(bucket_num))
             self._priority_bucket[bucket_num].append(job_ptr)
@@ -257,6 +272,9 @@ class JobScheduler:
 
     def UpdatePriority(self, job_ptr):
         old_priority = job_ptr.priority
+        # Have to start with 1 because if priority starts with 0 and then this.priority(0) + parent.priority(0) becomes 0.
+        # If you start with 1, then this.priority(1) + parent.priority(1)
+        # Basically, inheriting from parent would become complicated.
         job_ptr.priority = 1
 
         # First inherits priority from parents.
@@ -268,9 +286,9 @@ class JobScheduler:
                 # UpdatePriority
                 job_ptr.priority = job_ptr.priority + parent_job_ptr.priority
                 # Update highest priority job so that jobs could be scheduled in appr. bucket.
-                if self.highest_priority < job_ptr.priority:
-                    self.highest_priority = job_ptr.priority
-                    logging.debug('highest priority: %d' % self.highest_priority)
+                # if self.highest_priority < job_ptr.priority:
+                #    self.highest_priority = job_ptr.priority
+                #    logging.debug('highest priority: %d' % self.highest_priority)
                 logging.debug(
                     'Inherit priority from parent: ' + parent_job_ptr.name + ' priority: %d' % parent_job_ptr.priority + ' child: ' + job_ptr.name + ' priority: %d' % job_ptr.priority)
 
@@ -278,9 +296,9 @@ class JobScheduler:
         if old_priority != job_ptr.priority:
             for child in job_ptr._childs:
                 self.UpdatePriority(child)
-                if self.highest_priority < child.priority:
-                    self.highest_priority = child.priority
-                    logging.debug('highest priority: %d' % self.highest_priority)
+                # if self.highest_priority < child.priority:
+                #    self.highest_priority = child.priority
+                #    logging.debug('highest priority: %d' % self.highest_priority)
                 logging.debug('Updating priority of ' + child.name + ' priority %d' % child.priority)
 
     def UpdateChilds(self, job_input):
