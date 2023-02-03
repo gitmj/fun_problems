@@ -7,24 +7,28 @@ push(a) – Inserts the element ‘a’ at the top of the stack – Time Complex
 pop() – Deletes the topmost element of the stack – Time Complexity: O(1)
 """
 
+# Deque implementation
+from collections import deque
+
 # implementation via list - simple
-class Stack:
-    _stack_ = []
+# Deque are better data structure for stack because deque does not move data while list does.
+class Stack_Q:
+    stack = deque()
     def empty(self):
-        return not self._stack_
+        return not self.stack
     def size(self):
-        return len(self._stack_)
+        return len(self.stack)
     def top(self):
-        return self._stack_[-1]
+        return self.stack[-1]
     def push(self, item):
-        return self._stack_.append(item)
+        return self.stack.append(item)
     def pop(self):
-      if not self._stack_:
+      if not self.stack:
         return None
-      return self._stack_.pop()
+      return self.stack.pop()
 
 if __name__ == '__main__':
-    s = Stack()
+    s = Stack_Q()
     if s.empty():
       print ("Stack is empty")
     s.push(5)

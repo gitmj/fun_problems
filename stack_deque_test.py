@@ -1,9 +1,9 @@
-import stack
+import stack_deque
 
 # no framework, just test the methods by running them.
 
 def test_stack():
-  s = stack.Stack();
+  s = stack_deque.Stack_Q();
   assert s.empty() == True
   s.push(5)
   assert s.empty() == False
