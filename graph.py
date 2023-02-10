@@ -1,4 +1,4 @@
-# Adjascency List representation in Python
+# Adjacency list representation in Python
 
 
 class AdjNode:
